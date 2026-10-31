@@ -64,34 +64,34 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Allscreenshots provides a screenshot API that enables developers, marketers, and founders to capture website screenshots programmatically. With a single API call, users can obtain pixel‑perfect images of any web page, customize output formats, handle full‑page captures, and integrate blocking of unwanted elements. The service offers a free tier with 100 screenshots, global regions, high uptime, and no infrastructure to manage, making it ideal for automating visual testing, content generation, and social media assets.
+Allscreenshots provides a high-quality, pixel-perfect website screenshot API for developers, marketers, and founders. The service offers full-page capture, stealth mode, scheduled screenshots, geolocation, dark mode, and multiple export formats such as PNG, JPEG, and PDF. With a generous free tier of 100 screenshots and no credit card required, it enables rapid visual testing, content monitoring, and automation without managing browsers.
 
-**Areas:** Company · ScreenshotAPI · Automation · Marketing · Developers
+**Areas:** Company · Screenshot · API · Automation · Web
 
 ## allscreenshots-com on APIs.io
 
 Everything profiled for allscreenshots-com is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/allscreenshots-com/](https://apis.io/providers/allscreenshots-com/)** — or go straight to one of the APIs or properties below.
 
-### APIs (2)
+### APIs (1)
 
-- [Allscreenshots API](https://apis.io/apis/allscreenshots-com/allscreenshots-api/) — Capture website screenshots, PDFs, and page outputs via API.
 - [allscreenshots-com Screenshots API](https://apis.io/apis/allscreenshots-com/allscreenshots-com-screenshots-api/) — The Screenshots API from allscreenshots-com — 2 operation(s) for screenshots.
 
 ### Published properties
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-#### AsyncAPI (1)
-
-Event-driven and webhook contracts.
-
-- [Allscreenshots Com Webhooks](https://apis.io/asyncapis/allscreenshots-com/allscreenshots-com-webhooks/)
-
 #### Agentic access (1)
 
 Which operations an agent can call, which act, and which need a human in the loop.
 
 - [Allscreenshots Com Agentic Access](https://apis.io/agentic-access/allscreenshots-com/allscreenshots-com-agentic-access/)
+
+#### JSON Schema (2)
+
+The data models the API reads and writes.
+
+- [ScreenshotRequest](https://apis.io/schemas/allscreenshots-com/allscreenshots-com-screenshot-request/)
+- [ScreenshotResponse](https://apis.io/schemas/allscreenshots-com/allscreenshots-com-screenshot-response/)
 
 #### JSON-LD (1)
 
@@ -112,22 +112,17 @@ Authentication, trust centre, and vulnerability disclosure.
 - [Allscreenshots Com Authentication](https://apis.io/security/allscreenshots-com/allscreenshots-com-authentication/)
 - [Allscreenshots Com Domain Security](https://apis.io/security/allscreenshots-com/allscreenshots-com-domain-security/)
 
-#### Plans and pricing (1)
-
-Published plans, tiers and prices.
-
-- [Allscreenshots Com Plans Pricing](https://apis.io/plans/allscreenshots-com/allscreenshots-com-plans-pricing/)
-
 ## Where to find this API
 
 Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://allscreenshots.com/)
-- [Documentation](https://docs.allscreenshots.com)
+- [Documentation](https://docs.allscreenshots.com/)
 - [Getting started](https://docs.allscreenshots.com/getting-started/quickstart)
-- [API reference](https://docs.allscreenshots.com/api-reference/screenshots)
+- [API reference](https://allscreenshots.com/openapi.json)
 - [Pricing](https://allscreenshots.com/pricing)
 - [Support](https://allscreenshots.com/support)
+- [Changelog](https://allscreenshots.com/changelog)
 - [Blog](https://allscreenshots.com/blog)
 - [Terms of service](https://allscreenshots.com/terms)
 - [Privacy policy](https://allscreenshots.com/privacy)
@@ -135,18 +130,18 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 56.8** — strong · rubric 0.25.0 · scored 2026-10-30
+**Kin Score 54.6** — strong · rubric 0.25.0 · scored 2026-10-30
 
 | Facet | Score |
 |---|---|
 | Discoverability | 66.1 |
-| Contract quality | 58.7 |
+| Contract quality | 57.5 |
 | Contract governance | 79.1 |
-| Operational transparency | 23.7 |
-| Developer ergonomics | 47.6 |
-| Access clarity | 60.0 |
+| Operational transparency | 31.6 |
+| Developer ergonomics | 61.2 |
+| Access clarity | 31.6 |
 
-**Agent readiness 47.0** — agent-ready (gated down from agent-native)
+**Agent readiness 46.4** — agent-ready (gated down from agent-native)
 
 | Agent-readiness dimension | Result |
 |---|---|
@@ -159,8 +154,8 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Error Semantics | derived (partial credit) |
 | OpenAPI Examples | — |
 | Rate Limit Signal | — |
-| Event Surface Described | unknown |
-| Agent Skills | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
 | Well Known Catalog | yes |
 | Consent Identity | — |
 | Agent Card | flavored (partial credit) |
